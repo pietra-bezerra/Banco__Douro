@@ -15,10 +15,11 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
+          
           Image.asset("assets/images/banner.png"),
           Align(
             alignment: Alignment.bottomLeft,
-            child:Image.asset("assets/images/stars.png")),
+            child: Image.asset("assets/images/stars.png")),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(
@@ -37,7 +38,7 @@ class LoginScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     const SizedBox(height: 32),
-                     const Text("Sitema de Gestão de Contas",
+                     const Text('Sitema de Gestão de Contas',
                      textAlign: TextAlign.center,
                      style: TextStyle(
                       fontSize: 32,
